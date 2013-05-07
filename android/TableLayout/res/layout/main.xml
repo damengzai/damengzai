@@ -1,0 +1,106 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+    
+    <!-- 定义第一个表格布局，第二列允许收缩，第三列允许拉伸 -->
+    <TableLayout 
+        android:id="@+id/tb1"
+        android:layout_width ="match_parent"
+        android:layout_height = "wrap_content"
+        android:shrinkColumns = "1" 
+        android:stretchColumns = "2" >
+        <!-- the second line allow shrink(收缩) -->
+       <!-- the third line allow shretch（拉伸）  -->
+       
+        <!-- 直接添加 按钮，自己会占一行-->
+        <Button android:id="@+id/ok01"
+            android:layout_width ="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt5"
+           />
+       <!--添加一个表格行 -->
+       <TableRow>
+            <Button android:id="@+id/ok02"
+            android:layout_width ="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt1"
+           />
+             <Button android:id="@+id/ok03"
+            android:layout_width ="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt2"
+           />
+              <Button android:id="@+id/ok04"
+            android:layout_width ="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt3"
+           />
+       </TableRow> 
+    </TableLayout>
+    <TableLayout android:id="@+id/tb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:collapseColumns="1">
+    
+    <!--添加一个表格行 -->
+       <TableRow>
+            <Button android:id="@+id/ok05"
+            android:layout_width ="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt1"
+           />
+             <Button android:id="@+id/ok06"
+            android:layout_width ="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt4"
+           />
+              <Button android:id="@+id/ok07"
+            android:layout_width ="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt1"
+           />
+       </TableRow> 
+       </TableLayout>
+       <!-- 第三个表格布局 -->
+       <TableLayout 
+        android:id="@+id/tb1"
+        android:layout_width ="match_parent"
+        android:layout_height = "wrap_content" 
+        android:stretchColumns = "1,2" >
+           <Button android:id = "@+id/ok08"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text = "@string/bt5"/>
+           <!-- 定义表格行 -->
+           <TableRow>
+               <Button
+                   android:id="@+id/ok09"  
+                   android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text ="@string/bt1"/>
+               <Button android:id="@+id/ok10"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/bt3"/>
+               
+               <Button android:id="@+id/ok11"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/bt3"/>
+           </TableRow>
+           <!-- define a tablerow -->
+           <TableRow >
+               <Button android:id="@+id/ok12"
+                   android:layout_width ="wrap_content"
+                   android:layout_height ="wrap_content"
+                   android:text ="@string/bt1"
+                   />
+               <Button android:id="@+id/ok13"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/bt6"/>
+           </TableRow>
+       </TableLayout>
+</LinearLayout>

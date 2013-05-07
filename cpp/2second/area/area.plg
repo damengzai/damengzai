@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: area - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\msm\AppData\Local\Temp\RSPFA9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/area.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"H:\study\vc\21195089\Microsoft Visual Studio\MyProjects\area\test.cpp"
+]
+Creating command line "cl.exe @C:\Users\msm\AppData\Local\Temp\RSPFA9.tmp" 
+Creating temporary file "C:\Users\msm\AppData\Local\Temp\RSPFBA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/area.pdb" /debug /machine:I386 /out:"Debug/area.exe" /pdbtype:sept 
+".\Debug\area.obj"
+".\Debug\test.obj"
+]
+Creating command line "link.exe @C:\Users\msm\AppData\Local\Temp\RSPFBA.tmp"
+<h3>Output Window</h3>
+Compiling...
+test.cpp
+H:\study\vc\21195089\Microsoft Visual Studio\MyProjects\area\test.cpp(12) : error C2352: 'Rarea::area::getarea' : illegal call of non-static member function
+        h:\study\vc\21195089\microsoft visual studio\myprojects\area\area.h(11) : see declaration of 'getarea'
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+area.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

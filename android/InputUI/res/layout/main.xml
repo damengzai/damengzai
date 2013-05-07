@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation ="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <!-- zhuyi 注意这个的application写的是小写Inputui，看看显示的位置 -->
+  <TableRow>
+      <TextView 
+          android:text="用户名："
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/border" 
+          />
+      <EditText 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="请填写登录号"
+          android:selectAllOnFocus="true"
+          />
+  </TableRow>
+  <TableRow>
+      <TextView 
+          android:text="密  码："
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/border"
+          />
+      <EditText 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="请填写密码"
+          android:selectAllOnFocus="true"
+          android:password="true"
+          />
+  </TableRow>
+  <TableRow>
+      <TextView 
+          android:layout_width ="match_parent"
+          android:layout_height="wrap_content"
+          android:text="手机号:"
+          android:background="@drawable/border"
+          />
+      <EditText 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="请输入手机号"
+          android:selectAllOnFocus="true"
+          android:phoneNumber="true"
+          />
+  </TableRow>
+  
+
+</TableLayout>

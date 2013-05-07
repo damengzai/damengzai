@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Dialog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_dialog">显示提示消息的对话框</string>
+
+</resources>

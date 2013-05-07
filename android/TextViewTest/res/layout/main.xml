@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<!-- 设置字体20pt -->
+<TextView android:id = "@+id/t1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/t1"
+    android:textSize="20pt"
+    />
+
+<!-- 设置中间省略 -->
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:text ="@string/t2"
+    android:ellipsize ="middle"    
+    />
+<!-- 对邮件增加链接 -->
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine ="true"
+    android:text ="@string/t3"
+    android:autoLink = "email"
+    />
+
+<!-- 设置文字的颜色，大小，并使用阴影 -->
+<TextView android:layout_width="match_parent"
+    android:layout_height ="wrap_content"
+    android:text ="@string/t1"
+    android:textColor="#ff0000"
+    android:textSize="25pt"
+    android:shadowColor="#0000ff"
+    android:shadowDx="15.0"
+    android:shadowDy="20.0"
+    android:shadowRadius="45.0"
+    />
+<!-- 测试密码框 -->
+<TextView android:id="@+id/pw"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hello"
+    android:singleLine="true"
+    android:password="true"
+    />
+</LinearLayout>

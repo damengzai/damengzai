@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">TextViewTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_text_view_test">不同字体颜色添加链接的文本</string>
+    <string name = "hello">123456abcdef</string>
+    <string name = "t1">我爱android</string>
+    <string name = "t2">"我爱android我爱android我爱android我爱android我爱android我爱android"</string>
+    <string name = "t3">"测试  damengzai@sohu.com 内容"</string>
+</resources>

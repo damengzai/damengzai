@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<FrameLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    xmlns:android1="http://schemas.android.com/apk/res/android">
+   
+    <TextView android:id ="@+id/v1"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:width = "210dp"
+        android:height = "90dp"
+        android:background = "#ff0000"
+        />
+    <TextView android:id ="@+id/v2"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:width = "180dp"
+        android:height = "80dp"
+        android:background = "#dd0000"
+        />
+    <TextView android:id ="@+id/v3"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:width = "150dp"
+        android:height = "70dp"
+        android:background = "#bb0000"
+        />
+    <TextView android:id ="@+id/v4"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:width = "120dp"
+        android:height = "60dp"
+        android:background = "#990000"
+        />
+    <TextView android:id ="@+id/v5"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:width = "90dp"
+        android:height = "50dp"
+        android:background = "#770000"
+        />
+    <TextView android:id ="@+id/v6"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:width = "80dp"
+        android:height = "40dp"
+        android:background = "#550000"
+        />
+    <TextView android:id ="@+id/v7"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:width = "70dp"
+        android:height = "30dp"
+        android:background = "#330000"
+        />
+     <Button android:id = "@+id/bt1"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "偶是来打酱油的！"/>"
+</FrameLayout> 

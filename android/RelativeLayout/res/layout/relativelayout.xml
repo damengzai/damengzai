@@ -1,0 +1,47 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_toRightOf="@id/v1"
+        android:layout_alignTop="@id/v1"
+        />
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_toLeftOf="@id/v1"
+        android:layout_alignTop="@id/v1"
+        />
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_above="@id/v1"
+        android:layout_alignLeft="@id/v1"
+        />
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_below="@id/v1"
+        android:layout_alignLeft="@id/v1"
+        />
+</RelativeLayout>

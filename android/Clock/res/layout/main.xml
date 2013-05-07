@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation ="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <AnalogClock 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        />
+    <Chronometer
+        android:id="@+id/ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        />
+    <Button 
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始计时二十秒"
+        />
+    <TextView 
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        />
+</LinearLayout>

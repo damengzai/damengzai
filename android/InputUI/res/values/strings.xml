@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Inputui</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_input_ui">输入界面</string>
+
+</resources>

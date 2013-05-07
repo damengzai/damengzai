@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation ="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ToggleButton 
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="横向布局"
+        android:textOff="纵向布局"
+        android:checked="false"
+        />
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear"
+    >
+    <Button 
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试按钮1"
+        />
+    <Button 
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试按钮2"
+        />
+    <Button 
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试按钮3"
+        />
+</LinearLayout>
+
+</LinearLayout>

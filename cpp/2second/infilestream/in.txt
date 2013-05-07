@@ -1,0 +1,16 @@
+this is the in file.
+ÊÔÊÔÖĞÎÄ¡£
+123456677
+@#£¤%£¤%%¡­¡­
+
+
+source file
+//send message into a file;
+#include<string>
+#include<fstream>
+using namespace std;
+int main(){
+	ofstream out ("out.txt");
+	string s = "1233";
+	out << s;
+}
